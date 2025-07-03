@@ -1,0 +1,141 @@
+export const coursesData = [
+    {
+      id: 1,
+      title: "React Fundamentals",
+      description: "Learn the basics of React including components, props, and state management.",
+      duration: "8 hours",
+      level: "Beginner",
+      image: "⚛️",
+      enrolled: true,
+      chapters: [
+        { id: 1, title: "Introduction to React", completed: true },
+        { id: 2, title: "JSX Basics", completed: true },
+        { id: 3, title: "Components and Props", completed: true },
+        { id: 4, title: "State Management", completed: true },
+        { id: 5, title: "Event Handling", completed: true },
+        { id: 6, title: "Conditional Rendering", completed: false },
+        { id: 7, title: "Lists and Keys", completed: false },
+        { id: 8, title: "Forms in React", completed: false },
+        { id: 9, title: "Lifecycle Methods", completed: false },
+        { id: 10, title: "Hooks Introduction", completed: false },
+        { id: 11, title: "useState Hook", completed: false },
+        { id: 12, title: "useEffect Hook", completed: false }
+      ]
+    },
+    {
+      id: 2,
+      title: "JavaScript ES6+",
+      description: "Master modern JavaScript features and best practices.",
+      duration: "12 hours",
+      level: "Intermediate",
+      image: "🟨",
+      enrolled: true,
+      chapters: [
+        { id: 1, title: "ES6 Overview", completed: true },
+        { id: 2, title: "Let and Const", completed: true },
+        { id: 3, title: "Arrow Functions", completed: true },
+        { id: 4, title: "Template Literals", completed: false },
+        { id: 5, title: "Destructuring", completed: false },
+        { id: 6, title: "Spread Operator", completed: false },
+        { id: 7, title: "Rest Parameters", completed: false },
+        { id: 8, title: "Modules", completed: false },
+        { id: 9, title: "Promises", completed: false },
+        { id: 10, title: "Async/Await", completed: false },
+        { id: 11, title: "Array Methods", completed: false },
+        { id: 12, title: "Object Methods", completed: false },
+        { id: 13, title: "Classes", completed: false },
+        { id: 14, title: "Inheritance", completed: false },
+        { id: 15, title: "Error Handling", completed: false }
+      ]
+    },
+    {
+      id: 3,
+      title: "CSS Grid & Flexbox",
+      description: "Build responsive layouts with modern CSS techniques.",
+      duration: "6 hours",
+      level: "Beginner",
+      image: "🎨",
+      enrolled: true,
+      chapters: [
+        { id: 1, title: "CSS Layout Basics", completed: true },
+        { id: 2, title: "Flexbox Fundamentals", completed: true },
+        { id: 3, title: "Flex Direction and Wrap", completed: true },
+        { id: 4, title: "Justify Content", completed: true },
+        { id: 5, title: "Align Items", completed: true },
+        { id: 6, title: "Flex Grow and Shrink", completed: true },
+        { id: 7, title: "CSS Grid Introduction", completed: true },
+        { id: 8, title: "Grid Template", completed: true },
+        { id: 9, title: "Grid Areas", completed: true },
+        { id: 10, title: "Responsive Design", completed: false },
+        { id: 11, title: "Mobile First Approach", completed: false },
+        { id: 12, title: "Advanced Grid Techniques", completed: false }
+      ]
+    },
+    {
+      id: 4,
+      title: "Node.js Backend",
+      description: "Build scalable server-side applications with Node.js and Express.",
+      duration: "15 hours",
+      level: "Advanced",
+      image: "🟢",
+      enrolled: true,
+      chapters: [
+        { id: 1, title: "Node.js Introduction", completed: false },
+        { id: 2, title: "NPM and Packages", completed: false },
+        { id: 3, title: "File System", completed: false },
+        { id: 4, title: "HTTP Module", completed: false },
+        { id: 5, title: "Express.js Setup", completed: false },
+        { id: 6, title: "Routing", completed: false },
+        { id: 7, title: "Middleware", completed: false },
+        { id: 8, title: "REST APIs", completed: false },
+        { id: 9, title: "Database Integration", completed: false },
+        { id: 10, title: "Authentication", completed: false },
+        { id: 11, title: "Error Handling", completed: false },
+        { id: 12, title: "Testing", completed: false },
+        { id: 13, title: "Deployment", completed: false }
+      ]
+    },
+    {
+      id: 5,
+      title: "Python for Data Science",
+      description: "Learn Python programming with focus on data analysis and visualization.",
+      duration: "10 hours",
+      level: "Intermediate",
+      image: "🐍",
+      enrolled: true,
+      chapters: [
+        { id: 1, title: "Python Basics", completed: true },
+        { id: 2, title: "Data Types", completed: true },
+        { id: 3, title: "NumPy Introduction", completed: false },
+        { id: 4, title: "Pandas Basics", completed: false },
+        { id: 5, title: "Data Cleaning", completed: false },
+        { id: 6, title: "Data Visualization", completed: false },
+        { id: 7, title: "Matplotlib", completed: false },
+        { id: 8, title: "Seaborn", completed: false },
+        { id: 9, title: "Statistical Analysis", completed: false },
+        { id: 10, title: "Machine Learning Basics", completed: false }
+      ]
+    },
+    {
+      id: 6,
+      title: "Vue.js Complete Guide",
+      description: "Build modern web applications with Vue.js framework.",
+      duration: "9 hours",
+      level: "Intermediate",
+      image: "💚",
+      enrolled: false,
+      chapters: [
+        { id: 1, title: "Vue.js Introduction", completed: false },
+        { id: 2, title: "Vue Instance", completed: false },
+        { id: 3, title: "Template Syntax", completed: false },
+        { id: 4, title: "Directives", completed: false },
+        { id: 5, title: "Components", completed: false },
+        { id: 6, title: "Props and Events", completed: false },
+        { id: 7, title: "Vue Router", completed: false },
+        { id: 8, title: "Vuex State Management", completed: false },
+        { id: 9, title: "API Integration", completed: false },
+        { id: 10, title: "Build and Deploy", completed: false }
+      ]
+    },
+    
+  ];
